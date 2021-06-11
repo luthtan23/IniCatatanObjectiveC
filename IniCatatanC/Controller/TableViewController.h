@@ -15,7 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
     CatatanModel *catatanModel;
 }
 
-@property(nonatomic, retain) UITableViewCell *table;
 
 @end
 

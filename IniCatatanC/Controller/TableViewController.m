@@ -8,13 +8,11 @@
 #import "TableViewController.h"
 #import "CatatanModel.h"
 
-@interface TableViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface TableViewController ()
 
 @end
 
 @implementation TableViewController
-
-@synthesize table;
 
 NSArray *catatanModelArray;
 
@@ -24,12 +22,7 @@ NSString *cellId = @"cellId";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellId];
-
-    [self.tableView initWithFrame:CGRectZero style:UITableViewStyleGrouped];
-    
-    self.view.backgroundColor = [UIColor whiteColor];
     
     catatanModelArray = [[NSMutableArray alloc] init];
     [self setModel];
@@ -38,16 +31,15 @@ NSString *cellId = @"cellId";
     
     self.navigationItem.leftBarButtonItem = backButton;
     
-    
-    
 }
 
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId forIndexPath:indexPath];
+    UITableViewCell *defaultCell = [tableView dequeueReusableCellWithIdentifier:cellId forIndexPath:indexPath];
     CatatanModel *model = [[CatatanModel alloc] init];
     model = catatanModelArray[indexPath.row];
-    cell.textLabel.text = model.name;
-    return cell;
+    defaultCell.textLabel.text = model.name;
+    return defaultCell;
 }
 
 
@@ -74,21 +66,4 @@ NSString *cellId = @"cellId";
     ];
 
 }
-
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    return @"Heroes";
-}
-
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

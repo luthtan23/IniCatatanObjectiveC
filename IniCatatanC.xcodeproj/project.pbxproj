@@ -25,6 +25,11 @@
 		85EB6B57266DF28800B1C4C0 /* PopNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EB6B56266DF28800B1C4C0 /* PopNextViewController.m */; };
 		85EC0670265B2F980091DDD2 /* HeroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EC066E265B2F980091DDD2 /* HeroTableViewCell.m */; };
 		85EC0671265B2F980091DDD2 /* HeroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85EC066F265B2F980091DDD2 /* HeroTableViewCell.xib */; };
+		85F7C6F02671DEA600115134 /* TableStaticSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F7C6EF2671DEA600115134 /* TableStaticSettingViewController.m */; };
+		85F7C7082671E8F600115134 /* SimpleStaticTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F7C7062671E8F600115134 /* SimpleStaticTableViewCell.m */; };
+		85F7C7092671E8F600115134 /* SimpleStaticTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F7C7072671E8F600115134 /* SimpleStaticTableViewCell.xib */; };
+		85F7C7152671ED7B00115134 /* ItemTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F7C7142671ED7B00115134 /* ItemTableCell.m */; };
+		85FEA05026730DD40001D249 /* PriorityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FEA04F26730DD40001D249 /* PriorityViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +86,15 @@
 		85EC066D265B2F980091DDD2 /* HeroTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroTableViewCell.h; sourceTree = "<group>"; };
 		85EC066E265B2F980091DDD2 /* HeroTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroTableViewCell.m; sourceTree = "<group>"; };
 		85EC066F265B2F980091DDD2 /* HeroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroTableViewCell.xib; sourceTree = "<group>"; };
+		85F7C6EE2671DEA600115134 /* TableStaticSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableStaticSettingViewController.h; sourceTree = "<group>"; };
+		85F7C6EF2671DEA600115134 /* TableStaticSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableStaticSettingViewController.m; sourceTree = "<group>"; };
+		85F7C7052671E8F600115134 /* SimpleStaticTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleStaticTableViewCell.h; sourceTree = "<group>"; };
+		85F7C7062671E8F600115134 /* SimpleStaticTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleStaticTableViewCell.m; sourceTree = "<group>"; };
+		85F7C7072671E8F600115134 /* SimpleStaticTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleStaticTableViewCell.xib; sourceTree = "<group>"; };
+		85F7C7132671ED7B00115134 /* ItemTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemTableCell.h; sourceTree = "<group>"; };
+		85F7C7142671ED7B00115134 /* ItemTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemTableCell.m; sourceTree = "<group>"; };
+		85FEA04E26730DD40001D249 /* PriorityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityViewController.h; sourceTree = "<group>"; };
+		85FEA04F26730DD40001D249 /* PriorityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriorityViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +199,13 @@
 				85EB6B50266DF1F500B1C4C0 /* PopViewController.m */,
 				85EB6B55266DF28800B1C4C0 /* PopNextViewController.h */,
 				85EB6B56266DF28800B1C4C0 /* PopNextViewController.m */,
+				85F7C6EE2671DEA600115134 /* TableStaticSettingViewController.h */,
+				85F7C6EF2671DEA600115134 /* TableStaticSettingViewController.m */,
+				85F7C7052671E8F600115134 /* SimpleStaticTableViewCell.h */,
+				85F7C7062671E8F600115134 /* SimpleStaticTableViewCell.m */,
+				85F7C7072671E8F600115134 /* SimpleStaticTableViewCell.xib */,
+				85FEA04E26730DD40001D249 /* PriorityViewController.h */,
+				85FEA04F26730DD40001D249 /* PriorityViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,6 +215,8 @@
 			children = (
 				8553DB8926574974006A4FDF /* HeroModel.h */,
 				8553DB8A26574974006A4FDF /* HeroModel.m */,
+				85F7C7132671ED7B00115134 /* ItemTableCell.h */,
+				85F7C7142671ED7B00115134 /* ItemTableCell.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -303,6 +326,7 @@
 				851B258D265B4441006582AD /* DetailHeroViewController.xib in Resources */,
 				853C578F2654979600891C48 /* Assets.xcassets in Resources */,
 				85EC0671265B2F980091DDD2 /* HeroTableViewCell.xib in Resources */,
+				85F7C7092671E8F600115134 /* SimpleStaticTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,16 +352,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				85EB6B51266DF1F500B1C4C0 /* PopViewController.m in Sources */,
+				85F7C7152671ED7B00115134 /* ItemTableCell.m in Sources */,
 				85C6D9402654BAC00052F265 /* DetailViewController.m in Sources */,
 				85C6D9462654E0C40052F265 /* TableViewController.m in Sources */,
 				857D78DE26563F3E0095B741 /* NextTableViewController.m in Sources */,
 				85EC0670265B2F980091DDD2 /* HeroTableViewCell.m in Sources */,
 				853C578A2654979500891C48 /* ViewController.m in Sources */,
 				857D78D82656039A0095B741 /* CatatanModel.m in Sources */,
+				85F7C7082671E8F600115134 /* SimpleStaticTableViewCell.m in Sources */,
 				853C57842654979500891C48 /* AppDelegate.m in Sources */,
+				85FEA05026730DD40001D249 /* PriorityViewController.m in Sources */,
 				8553DB8B26574974006A4FDF /* HeroModel.m in Sources */,
 				853C57952654979600891C48 /* main.m in Sources */,
 				85EB6B57266DF28800B1C4C0 /* PopNextViewController.m in Sources */,
+				85F7C6F02671DEA600115134 /* TableStaticSettingViewController.m in Sources */,
 				853C57872654979500891C48 /* SceneDelegate.m in Sources */,
 				851B258C265B4441006582AD /* DetailHeroViewController.m in Sources */,
 			);

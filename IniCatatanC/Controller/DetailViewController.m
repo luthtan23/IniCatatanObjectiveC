@@ -9,6 +9,7 @@
 #import "TableViewController.h"
 #import "NextTableViewController.h"
 #import "PopViewController.h"
+#import "TableStaticSettingViewController.h"
 
 @interface DetailViewController ()
 
@@ -29,6 +30,7 @@
     [self setButtonTableViewAttr];
     [self setButtonNextTableViewAttr];
     [self setButtonPop];
+    [self setTableStaticSetting];
     
     
 }
@@ -65,6 +67,17 @@
     
 }
 
+-(void) setTableStaticSetting {
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [button setTitle:@"table static" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor lightGrayColor];
+    [button setFrame:CGRectMake(308, 100, 75,50)];
+    [button addTarget:self action:@selector(tableStaticViewController:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+}
+
 //-(void) backButtonClicked: (UIBarButtonItem *) sender{
 //    [self dismissViewControllerAnimated:YES completion:nil];
 //}
@@ -94,15 +107,12 @@
 }
 
 
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void) tableStaticViewController: (UIButton *) sender {
+    TableStaticSettingViewController *tableStatic = [[TableStaticSettingViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:tableStatic];
+    [self presentViewController:nav animated:YES completion:nil];
 }
-*/
+
+
 
 @end
