@@ -12,7 +12,14 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TableStaticSettingViewController : UIViewController
 
 @property(nonatomic, retain) UITableView *simpleTableView;
-//@property (strong, nonatomic) UITextField *activityTodo;
+@property(nonatomic,retain) UIDatePicker *datePicker;
+@property(nonatomic,retain) UIView *pickerView;
+@property(nonatomic,retain) UIView *timeBackgroundView;
+@property(nonatomic,retain) UIButton *pickerButton;
+@property (strong, nonatomic) UIImagePickerController *imagePicker;
+
+@property (strong, nonatomic) UIButton *imageButton;
+
 
 @end
 

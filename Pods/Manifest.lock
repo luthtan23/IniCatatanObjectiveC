@@ -1,0 +1,16 @@
+PODS:
+  - LoremIpsum-iOS (0.1.0)
+
+DEPENDENCIES:
+  - LoremIpsum-iOS
+
+SPEC REPOS:
+  trunk:
+    - LoremIpsum-iOS
+
+SPEC CHECKSUMS:
+  LoremIpsum-iOS: af893c224373862f1f4b4d12a92afab43501e745
+
+PODFILE CHECKSUM: d71fdad51285b0bcc6c0dec14edbf96e13246bda
+
+COCOAPODS: 1.10.1

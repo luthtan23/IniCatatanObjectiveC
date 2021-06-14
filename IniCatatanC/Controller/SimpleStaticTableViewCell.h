@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UILabel *labelPriority;
 
 @property (strong, nonatomic) UITextField *activityTodo;
+@property (strong, nonatomic) UIButton *imageButton;
+
 - (void) configureCell;
 - (void) configureSectionTwo:(ItemTableCell*) item;
 - (void) configureImageActivity;

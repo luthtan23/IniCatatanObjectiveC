@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0890BFC181B146D4614B3817 /* Pods_IniCatatanC_IniCatatanCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2FE4A28D5CD1B7C31A2EED0 /* Pods_IniCatatanC_IniCatatanCUITests.framework */; };
 		851B258C265B4441006582AD /* DetailHeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B258A265B4441006582AD /* DetailHeroViewController.m */; };
 		851B258D265B4441006582AD /* DetailHeroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851B258B265B4441006582AD /* DetailHeroViewController.xib */; };
 		853C57842654979500891C48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C57832654979500891C48 /* AppDelegate.m */; };
@@ -30,6 +31,8 @@
 		85F7C7092671E8F600115134 /* SimpleStaticTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F7C7072671E8F600115134 /* SimpleStaticTableViewCell.xib */; };
 		85F7C7152671ED7B00115134 /* ItemTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F7C7142671ED7B00115134 /* ItemTableCell.m */; };
 		85FEA05026730DD40001D249 /* PriorityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FEA04F26730DD40001D249 /* PriorityViewController.m */; };
+		B2407E8423C514305DAA1614 /* Pods_IniCatatanCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DAA5574891490C89DB0FF7 /* Pods_IniCatatanCTests.framework */; };
+		DEA53552CE86B85396A656D6 /* Pods_IniCatatanC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F282A2EBC80F90FC83116B /* Pods_IniCatatanC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AB74FC833B46ECCD72927F3 /* Pods-IniCatatanC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IniCatatanC.release.xcconfig"; path = "Target Support Files/Pods-IniCatatanC/Pods-IniCatatanC.release.xcconfig"; sourceTree = "<group>"; };
+		30B0E8841FDDB6DCB5BD646A /* Pods-IniCatatanC-IniCatatanCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IniCatatanC-IniCatatanCUITests.release.xcconfig"; path = "Target Support Files/Pods-IniCatatanC-IniCatatanCUITests/Pods-IniCatatanC-IniCatatanCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42333E53E27E0F6D853D91E5 /* Pods-IniCatatanC-IniCatatanCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IniCatatanC-IniCatatanCUITests.debug.xcconfig"; path = "Target Support Files/Pods-IniCatatanC-IniCatatanCUITests/Pods-IniCatatanC-IniCatatanCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		65F282A2EBC80F90FC83116B /* Pods_IniCatatanC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IniCatatanC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D743CE4DCDF82B3BD1D9CEC /* Pods-IniCatatanCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IniCatatanCTests.release.xcconfig"; path = "Target Support Files/Pods-IniCatatanCTests/Pods-IniCatatanCTests.release.xcconfig"; sourceTree = "<group>"; };
+		710407E096891D8FC2865932 /* Pods-IniCatatanCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IniCatatanCTests.debug.xcconfig"; path = "Target Support Files/Pods-IniCatatanCTests/Pods-IniCatatanCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		851B2589265B4441006582AD /* DetailHeroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailHeroViewController.h; sourceTree = "<group>"; };
 		851B258A265B4441006582AD /* DetailHeroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailHeroViewController.m; sourceTree = "<group>"; };
 		851B258B265B4441006582AD /* DetailHeroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailHeroViewController.xib; sourceTree = "<group>"; };
@@ -95,6 +104,9 @@
 		85F7C7142671ED7B00115134 /* ItemTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemTableCell.m; sourceTree = "<group>"; };
 		85FEA04E26730DD40001D249 /* PriorityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityViewController.h; sourceTree = "<group>"; };
 		85FEA04F26730DD40001D249 /* PriorityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriorityViewController.m; sourceTree = "<group>"; };
+		97DAA5574891490C89DB0FF7 /* Pods_IniCatatanCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IniCatatanCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3CFB901AAFEA650F47C70B /* Pods-IniCatatanC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IniCatatanC.debug.xcconfig"; path = "Target Support Files/Pods-IniCatatanC/Pods-IniCatatanC.debug.xcconfig"; sourceTree = "<group>"; };
+		F2FE4A28D5CD1B7C31A2EED0 /* Pods_IniCatatanC_IniCatatanCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IniCatatanC_IniCatatanCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA53552CE86B85396A656D6 /* Pods_IniCatatanC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2407E8423C514305DAA1614 /* Pods_IniCatatanCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0890BFC181B146D4614B3817 /* Pods_IniCatatanC_IniCatatanCUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +144,8 @@
 				853C579D2654979600891C48 /* IniCatatanCTests */,
 				853C57A82654979700891C48 /* IniCatatanCUITests */,
 				853C57802654979500891C48 /* Products */,
+				E79BA31FDE703CE22E58C6E0 /* Pods */,
+				B4F68EF89FD99983E850CE4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,6 +238,30 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B4F68EF89FD99983E850CE4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65F282A2EBC80F90FC83116B /* Pods_IniCatatanC.framework */,
+				F2FE4A28D5CD1B7C31A2EED0 /* Pods_IniCatatanC_IniCatatanCUITests.framework */,
+				97DAA5574891490C89DB0FF7 /* Pods_IniCatatanCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E79BA31FDE703CE22E58C6E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA3CFB901AAFEA650F47C70B /* Pods-IniCatatanC.debug.xcconfig */,
+				1AB74FC833B46ECCD72927F3 /* Pods-IniCatatanC.release.xcconfig */,
+				42333E53E27E0F6D853D91E5 /* Pods-IniCatatanC-IniCatatanCUITests.debug.xcconfig */,
+				30B0E8841FDDB6DCB5BD646A /* Pods-IniCatatanC-IniCatatanCUITests.release.xcconfig */,
+				710407E096891D8FC2865932 /* Pods-IniCatatanCTests.debug.xcconfig */,
+				6D743CE4DCDF82B3BD1D9CEC /* Pods-IniCatatanCTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 853C57AE2654979700891C48 /* Build configuration list for PBXNativeTarget "IniCatatanC" */;
 			buildPhases = (
+				1CD76C1972601D87C5F0E57F /* [CP] Check Pods Manifest.lock */,
 				853C577B2654979500891C48 /* Sources */,
 				853C577C2654979500891C48 /* Frameworks */,
 				853C577D2654979500891C48 /* Resources */,
+				580AFEA99D1B45A999D78BD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,6 +288,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 853C57B12654979700891C48 /* Build configuration list for PBXNativeTarget "IniCatatanCTests" */;
 			buildPhases = (
+				4381267C56212387F12583EF /* [CP] Check Pods Manifest.lock */,
 				853C57962654979600891C48 /* Sources */,
 				853C57972654979600891C48 /* Frameworks */,
 				853C57982654979600891C48 /* Resources */,
@@ -263,9 +307,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 853C57B42654979700891C48 /* Build configuration list for PBXNativeTarget "IniCatatanCUITests" */;
 			buildPhases = (
+				31FBC6382880FEBA069603E9 /* [CP] Check Pods Manifest.lock */,
 				853C57A12654979700891C48 /* Sources */,
 				853C57A22654979700891C48 /* Frameworks */,
 				853C57A32654979700891C48 /* Resources */,
+				DA2D3559364E66996A35D993 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -345,6 +391,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CD76C1972601D87C5F0E57F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IniCatatanC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31FBC6382880FEBA069603E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IniCatatanC-IniCatatanCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4381267C56212387F12583EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IniCatatanCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		580AFEA99D1B45A999D78BD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IniCatatanC/Pods-IniCatatanC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IniCatatanC/Pods-IniCatatanC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IniCatatanC/Pods-IniCatatanC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2D3559364E66996A35D993 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IniCatatanC-IniCatatanCUITests/Pods-IniCatatanC-IniCatatanCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IniCatatanC-IniCatatanCUITests/Pods-IniCatatanC-IniCatatanCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IniCatatanC-IniCatatanCUITests/Pods-IniCatatanC-IniCatatanCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		853C577B2654979500891C48 /* Sources */ = {
@@ -517,6 +666,7 @@
 		};
 		853C57AF2654979700891C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3CFB901AAFEA650F47C70B /* Pods-IniCatatanC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -535,6 +685,7 @@
 		};
 		853C57B02654979700891C48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB74FC833B46ECCD72927F3 /* Pods-IniCatatanC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -553,6 +704,7 @@
 		};
 		853C57B22654979700891C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710407E096891D8FC2865932 /* Pods-IniCatatanCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -572,6 +724,7 @@
 		};
 		853C57B32654979700891C48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D743CE4DCDF82B3BD1D9CEC /* Pods-IniCatatanCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +744,7 @@
 		};
 		853C57B52654979700891C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42333E53E27E0F6D853D91E5 /* Pods-IniCatatanC-IniCatatanCUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IniCatatanCUITests/Info.plist;
@@ -608,6 +762,7 @@
 		};
 		853C57B62654979700891C48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B0E8841FDDB6DCB5BD646A /* Pods-IniCatatanC-IniCatatanCUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IniCatatanCUITests/Info.plist;

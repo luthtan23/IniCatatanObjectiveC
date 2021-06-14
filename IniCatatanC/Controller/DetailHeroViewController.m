@@ -6,6 +6,7 @@
 //
 
 #import "DetailHeroViewController.h"
+#import "LoremIpsum.h"
 
 @interface DetailHeroViewController ()
 

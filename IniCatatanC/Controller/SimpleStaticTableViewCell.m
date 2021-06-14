@@ -25,11 +25,6 @@
 }
 
 - (void) configureImageActivity {
-    UIButton *imageButton = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, self.contentView.frame.size.height, self.contentView.frame.size.height)];
-    [imageButton setImage:[UIImage imageNamed:@"add-image-image"] forState:UIControlStateNormal];
-    imageButton.contentMode = UIViewContentModeCenter;
-    imageButton.imageView.contentMode = UIViewContentModeScaleAspectFit;
-    [self.contentView addSubview:imageButton];
     [self setHidenAttribute:false];
     
 }
